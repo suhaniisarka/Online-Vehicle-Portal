@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 //import React from "react";
 import logo from "../images/clogo.png";
-
+import wishlist from "../images/wishlist.png";
+import account from "../images/account1.png";
 class NavBar extends Component {
   render() {
     return (
@@ -30,46 +31,26 @@ class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link
+                  Buy Cars
                 </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
+                <a className="nav-link" href="#">
+                  About us
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Sell Cars
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link">Contact Us</a>
               </li>
             </ul>
-            <form className="d-flex" role="search">
+
+            {/* <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
                 type="search"
@@ -79,7 +60,9 @@ class NavBar extends Component {
               <button className="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
+            <img src={wishlist} />
+            <img src={account} />
           </div>
         </div>
       </nav>
