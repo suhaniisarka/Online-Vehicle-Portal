@@ -61,8 +61,8 @@ class NavBar extends Component {
                 Search
               </button>
             </form> */}
-            <img src={wishlist} />
-            <img src={account} />
+            <img src={wishlist} style={{ marginRight: 20 }} />
+            <img src={account} style={{ marginRight: 20 }} />
           </div>
         </div>
       </nav>
