@@ -6,7 +6,7 @@ import account from "../images/account1.png";
 class NavBar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={logo} style={{ width: 300 }} />

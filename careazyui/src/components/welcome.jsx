@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import logo from "../images/welcome.png";
+import { withRouter } from "./withRouter";
 class Welcome extends Component {
   render() {
     return (
@@ -39,6 +40,9 @@ class Welcome extends Component {
                             "linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)",
                           marginRight: 25,
                         }}
+                        onClick={() => {
+                          this.props.navigate("/signup");
+                        }}
                       >
                         Sign Up
                       </button>
@@ -48,6 +52,9 @@ class Welcome extends Component {
                         style={{
                           background:
                             "linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)",
+                        }}
+                        onClick={() => {
+                          this.props.navigate("/login");
                         }}
                       >
                         Login
@@ -64,4 +71,4 @@ class Welcome extends Component {
   }
 }
 
-export default Welcome;
+export default withRouter(Welcome);

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "./withRouter";
 class Signup extends Component {
   render() {
     return (
@@ -59,11 +60,15 @@ class Signup extends Component {
                       </button>
                     </div>
                     <div>
-                      <p className="mb-0">
-                        Already have an account?{" "}
-                        <a href="#!" className="text-blue-50 fw-bold">
-                          Sign In
-                        </a>
+                      <p className="mb-0">Already have an account? </p>
+                      <p
+                        className="text-blue-50 fw-bold"
+                        style={{
+                          color: "blue",
+                        }}
+                        onClick={() => this.props.navigate("/login")}
+                      >
+                        LogIn
                       </p>
                     </div>
                   </div>
@@ -77,4 +82,4 @@ class Signup extends Component {
   }
 }
 
-export default Signup;
+export default withRouter(Signup);
