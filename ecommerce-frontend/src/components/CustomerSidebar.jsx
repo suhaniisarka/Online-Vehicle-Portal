@@ -11,9 +11,9 @@ function CustomerSidebar(){
     }
     return (
         <div className="list-group">
-            <Link to="/cprofile" className="list-group-item list-group-item-action">Profile</Link>
-            <Link to="/myorders" className="list-group-item list-group-item-action">My Orders</Link>                   
-            <Link to="#" onClick={logout} className="list-group-item list-group-item-action">Logout</Link>            
+            <Link to="/cprofile" className="list-group-item list-group-item-action" style={{color:'white'}}>Profile</Link>
+            <Link to="/myorders" className="list-group-item list-group-item-action" style={{color:'white'}}>My Orders</Link>                   
+            <Link to="#" onClick={logout} className="list-group-item list-group-item-action" style={{color:'white'}}>Logout</Link>            
         </div>
     )
 }
