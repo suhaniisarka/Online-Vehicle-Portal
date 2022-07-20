@@ -5,20 +5,19 @@ function ContactUs() {
       <div
         className="container center"
         style={{
-          display: "flex",
-          //alignItems: "center",
-          paddingTop: 30,
-          justifyContent: "center",
-          //height: "100vh",
-          //borderColor: "white",
-          borderWidth: 3,
+          display: "grid",
+          paddingTop: 3,
+          //justifyContent: "center",
+          border: 'solid',
         }}
       >
-        <h2>Contact Us</h2>
-        <br />
-        <p style={{ color: "white", paddingTop: 20 }}>
-          contact info here
-        </p>
+        <h2 style={{ color: "white"}}>Contact Us</h2>
+        <div style={{display:"grid"}}><p style={{ color: "white"}}>
+          <a>Feel free to reach out to us at any of the following!</a>
+          <br />
+          <img src={'email.png'} /><a>Email-Id: abcd@dummy.com</a>
+        </p></div>
+        
       </div>
     </>
   );
