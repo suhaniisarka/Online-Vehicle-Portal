@@ -19,6 +19,8 @@ import CustomerProfile from './components/CustomerProfile';
 import MyOrders from './components/MyOrders';
 import Orders from './components/Orders';
 import ViewCart from './components/ViewCart';
+import ContactUs from './components/ContactUs';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
@@ -44,7 +46,9 @@ function App() {
           <Route component={MyProducts} path="/myproducts" />          
           <Route component={MyOrders} path="/myorders" />          
           <Route component={Orders} path="/orders" />          
-          <Route component={ViewCart} path="/cart" />          
+          <Route component={ViewCart} path="/cart" />   
+          <Route component={ContactUs} path="/ContactUs" />          
+          <Route component={AboutUs} path="/AboutUs" />        
         </Switch>
         </BrowserRouter>
     </div>
