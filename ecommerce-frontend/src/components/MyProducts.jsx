@@ -48,10 +48,10 @@ function MyProducts(){
                 <tbody>
                 {products.map(x=>(
                     <tr key={x.prodid}>
-                        <td><img width="100" src={"http://localhost:4000/"+x.photo} className="img-thumnail" />{x.pname}</td>
-                        <td>{x.pcat}</td>
-                        <td>{x.brand}</td>
-                        <td>{x.price}</td>
+                        <td><img width="100" src={"http://localhost:4000/"+x.photo} className="img-thumnail" /><a style={{color:'white',textAlign:'center'}}>{x.pname}</a></td>
+                        <td style={{textAlign:'center',textAlign:'center'}}><a style={{color:'white',margin:'auto'}}>{x.pcat}</a></td>
+                        <td ><a style={{color:'white'}}>{x.brand}</a></td>
+                        <td ><a style={{color:'white'}}>{x.price}</a></td>
                         <td>
                             <Link to={"/edit/"+x.prodid} className="btn btn-primary btn-sm mr-2">Edit</Link>
                             <button onClick={()=>deleteProduct(x.prodid)} className="btn btn-danger btn-sm">Delete</button>
