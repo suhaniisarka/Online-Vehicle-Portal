@@ -21,7 +21,7 @@ function TopSlider(){
               <div className="wdt" >  
               
                
-              <img  className="img" alt="pic1" style={{paddingLeft:'3px'}} src= {'assets/header4.jpg'}/>
+              <img  className="img" alt="pic1" style={{paddingLeft:'3px'}} src= {'assets/banner.jpg'}/>
               </div>   
               <div className="wdt">  
               <img  className="img" alt="pic1" style={{paddingLeft:'3px'}} src= {'assets/header3.jpg'}/>  
