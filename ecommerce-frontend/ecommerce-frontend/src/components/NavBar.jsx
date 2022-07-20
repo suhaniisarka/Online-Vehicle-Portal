@@ -26,13 +26,13 @@ function NavBar(){
                         <Link className="nav-link" to="/" style={{ color: 'white',fontSize:'22px'}}>Buy Cars</Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to="/" style={{ color: 'white',fontSize:'22px'}}>About Us</Link>
+                        <Link className="nav-link" to="/AboutUs" style={{ color: 'white',fontSize:'22px'}}>About Us</Link>
                     </li>
                     <li className="nav-item active">
                         <Link className="nav-link" to="/" style={{ color: 'white',fontSize:'22px'}}>Sell Cars</Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to="/" style={{ color: 'white',fontSize:'22px'}}>Contact Us</Link>
+                        <Link className="nav-link" to="/ContactUs" style={{ color: 'white',fontSize:'22px'}}>Contact Us</Link>
                     </li>
                     {/* <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
