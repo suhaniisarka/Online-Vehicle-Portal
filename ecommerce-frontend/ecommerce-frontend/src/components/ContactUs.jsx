@@ -2,7 +2,7 @@ import React from "react";
 function ContactUs() {
   return (
     <>
-      <div className="center"><img src={'address.png'} style={{width:'1000px'}} /></div>
+      <div style={{position:'absolute'}}><img src={'address.png'} style={{}} /></div>
       <div style={{marginBottom:0,marginTop:15,marginLeft:200,marginRight:900, color: "white",fontSize:"45px",textShadow:'2px 1px #000000',paddingLeft:"80px",border: 'solid',borderRadius:"15px",borderColor:"black"}}>Contact Us</div>
       <br/>
       <div
