@@ -2,6 +2,7 @@ import React from "react";
 function ContactUs() {
   return (
     <>
+      <div className="center"><img src={'address.png'} style={{width:'1000px'}} /></div>
       <div style={{marginBottom:0,marginTop:15,marginLeft:200,marginRight:900, color: "white",fontSize:"45px",textShadow:'2px 1px #000000',paddingLeft:"80px",border: 'solid',borderRadius:"15px",borderColor:"black"}}>Contact Us</div>
       <br/>
       <div
@@ -9,9 +10,9 @@ function ContactUs() {
         style={{
           
           display: "grid",
-          paddingLeft:90,
-          paddingTop:90,
-          paddingBottom:90,
+          paddingLeft:70,
+          paddingTop:70,
+          paddingBottom:70,
           //justifyContent: "center",
           border: 'solid',
           borderRadius:"15px",
@@ -20,9 +21,11 @@ function ContactUs() {
       >
         
         <div style={{display:"grid"}}><p style={{ color: "white",textShadow:'1px 1px #000000'}}>
-          <a style={{fontSize:"30px"}}>Feel free to reach out to us at any of the following!</a>
+          <a style={{fontSize:"30px"}}>Feel free to reach out to us!</a>
           <br />
           <br />
+          <div style={{float:'right'}}><img src={'contactus.jpg'} style={{}} /></div>
+          <div>
           <div>
           <img src={'email2.png'} style={{width:'33px', paddingRight:'2px',paddingTop:"0px"}} />
           <a style={{fontSize:"22px",paddingTop:"2px"}}>Email-Id: abcd@dummy.com</a>
@@ -41,6 +44,7 @@ function ContactUs() {
           <div>
           <img src={'cellphone1.png'} style={{width:'33px', paddingRight:'2px',paddingTop:"0px"}} />
           <a style={{fontSize:"22px",paddingTop:"2px"}}>Contact No(Mobile): 11111111</a>
+          </div>
           </div>
         </p></div>
         
