@@ -9,14 +9,17 @@ function ContactUs() {
           paddingTop: 3,
           //justifyContent: "center",
           border: 'solid',
-          background:'blue',
+          background:'#696969',
         }}
       >
-        <h2 style={{ color: "white"}}>Contact Us</h2>
+        <a style={{ color: "white",fontSize:"45px"}}>Contact Us</a>
         <div style={{display:"grid"}}><p style={{ color: "white"}}>
-          <a>Feel free to reach out to us at any of the following!</a>
+          <a style={{fontSize:"30px"}}>Feel free to reach out to us at any of the following!</a>
           <br />
-          <img src={'email.png'} style={{width:'27px', paddingRight:'2px'}} /><a>Email-Id: abcd@dummy.com</a>
+          <div>
+          <img src={'email.png'} style={{width:'33px', paddingRight:'2px',paddingTop:"0px"}} />
+          <a style={{fontSize:"22px",paddingTop:"2px"}}>Email-Id: abcd@dummy.com</a>
+          </div>
         </p></div>
         
       </div>
