@@ -2,18 +2,24 @@ import React from "react";
 function ContactUs() {
   return (
     <>
+      <div style={{marginBottom:0,marginTop:15,marginLeft:200,marginRight:900, color: "white",fontSize:"45px",textShadow:'2px 1px #000000',paddingLeft:"80px",border: 'solid',borderRadius:"15px",borderColor:"black"}}>Contact Us</div>
+      <br/>
       <div
         className="container center"
         style={{
+          
           display: "grid",
-          paddingTop: 3,
+          paddingLeft:90,
+          paddingTop:90,
+          paddingBottom:90,
           //justifyContent: "center",
           border: 'solid',
-          background:'#696969',
+          borderRadius:"15px",
+          background:'#313131',
         }}
       >
-        <a style={{ color: "white",fontSize:"45px"}}>Contact Us</a>
-        <div style={{display:"grid"}}><p style={{ color: "white"}}>
+        
+        <div style={{display:"grid"}}><p style={{ color: "white",textShadow:'1px 1px #000000'}}>
           <a style={{fontSize:"30px"}}>Feel free to reach out to us at any of the following!</a>
           <br />
           <br />
