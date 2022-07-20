@@ -5,6 +5,66 @@ function AboutUs() {
       <div
         className="container center"
         style={{
+          display: "grid",
+          //paddingLeft: 70,
+          //paddingTop: 70,
+          //paddingBottom: 70,
+          justifyContent: "center",
+          //border: "solid",
+          borderRadius: "15px",
+          //background: "#313131",
+        }}
+      >
+        <div className="wdt">
+          <img
+            className="img"
+            alt="pic1"
+            style={{ paddingLeft: "3px" }}
+            src={"assets/group.jpg"}
+          />
+        </div>
+      </div>
+      <div
+        className="container center"
+        style={{
+          display: "grid",
+          paddingLeft: 70,
+          paddingTop: 70,
+          paddingBottom: 70,
+          justifyContent: "center",
+          border: "solid",
+          borderRadius: "15px",
+          background: "#313131",
+        }}
+      >
+        <div style={{ display: "grid" }}>
+          <p style={{ color: "white", textShadow: "1px 1px #000000" }}>
+            <h2>About Us</h2>
+            <br />
+            The project CarEazy provides you the platform to buy and sell your
+            cars. It is difficult under the existing system to maintain specific
+            automobile information and provide it to customers who are willing
+            to buy them. Customers experience problems in order to understand
+            about the vehicle information such as manufacture year, car model,
+            and other useful information in a single domain.
+            <br />
+            People typically visit garages and showrooms in quest of the desired
+            second-hand automobile that they intend to purchase, which becomes
+            tedious at times and even time consuming, thus our system eliminates
+            this problem and it will be capable of storing all of the necessary
+            information for the user in order to properly engage him in the
+            process of purchasing or selling a car, as well as assisting users
+            in obtaining their desired vehicle details online in a single place.
+          </p>
+          <br />
+          <p style={{ color: "white", textShadow: "1px 1px #000000" }}>
+            <h4>Our Team:</h4>
+          </p>
+        </div>
+      </div>
+      {/* <div
+        className="container center"
+        style={{
           display: "flex",
           //alignItems: "center",
           paddingTop: 30,
@@ -44,7 +104,7 @@ function AboutUs() {
           The portals will ensure user-convenience, systematic data flow and a
           secure system enabling structured user-experience.
         </p>
-      </div>
+      </div> */}
     </>
   );
 }
