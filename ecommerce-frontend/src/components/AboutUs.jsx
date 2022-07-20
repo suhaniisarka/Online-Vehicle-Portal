@@ -61,6 +61,12 @@ function AboutUs() {
           <br />
           <p style={{ color: "white", textShadow: "1px 1px #000000" }}>
             <h4>Our Team:</h4>
+            <ul>
+              <li>Suhani Isarka</li>
+              <li>Mrugank Thatte</li>
+              <li>Pratik Bhongade</li>
+              <li>Sumankumar Vadhel</li>
+            </ul>
           </p>
         </div>
       </div>

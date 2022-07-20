@@ -79,7 +79,7 @@ function AddProduct(){
                                 
                             </div>                            
                             <div className="form-group form-row">
-                                <label className="col-sm-4 form-control-label">Brands</label>
+                                <label className="col-sm-4 form-control-label" >Brands</label>
                                 <div className="col-sm-8">
                                     <select name="pcat" value={product.pcat} onChange={handleInput} className="form-control">
                                         <option value="">Select Brands</option>
