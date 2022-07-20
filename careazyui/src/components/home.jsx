@@ -10,12 +10,12 @@ class Home extends Component {
         <NavBar />
         <div
           className="carousel-item active"
-          // style={{
-          //   backgroundImage: "url(" + background + ")",
-          //   backgroundPosition: "center",
-          //   backgroundSize: "cover",
-          //   backgroundRepeat: "no-repeat",
-          //}}
+          style={{
+            //backgroundImage: "url(" + background + ")",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <div className="container py-4 h-300">
             <h2 className=" align-items-center h-100">

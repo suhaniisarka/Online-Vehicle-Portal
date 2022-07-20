@@ -45,6 +45,9 @@ class Login extends Component {
                           background:
                             "linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)",
                         }}
+                        onClick={() => {
+                          this.props.navigate("/home");
+                        }}
                       >
                         Log in
                       </button>
