@@ -31,7 +31,7 @@ function MyProducts(){
     }
     
     return (
-        <div className="container">
+        <div className="container" style={{paddingTop:"50px"}}>
             <div className="card shadow bg-transparent text-white">
                 <div className="card-body">                    
             <h4 style={{fontSize:'30px'}}>My Products</h4>
