@@ -15,14 +15,16 @@ function AboutUs() {
           //background: "#313131",
         }}
       >
-        <div className="wdt">
+        {/* <div className="wdt">
           <img
             className="img"
             alt="pic1"
             style={{ paddingLeft: "3px" }}
             src={"assets/group.jpg"}
           />
-        </div>
+        </div> */}
+        <div className="container center" style={{width:"450px",paddingTop:"30px"}}><img src={'assets/header7.jpg'} style={{width:"450px",borderRadius:'25px'}} /></div>
+      <br/>
       </div>
       <div
         className="container center"
