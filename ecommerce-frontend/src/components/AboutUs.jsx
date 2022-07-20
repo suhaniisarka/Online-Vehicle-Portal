@@ -17,7 +17,7 @@ function AboutUs() {
         <h2>About Us</h2>
         <br />
         <p style={{ color: "white", paddingTop: 20 }}>
-          The primary goal of this project is to develop a web-based application
+          Hello primary goal of this project is to develop a web-based application
           that will be useful while selling and purchasing automobiles. It is
           difficult under the existing system to maintain specific automobile
           information and provide it to customers who are willing to buy them.
