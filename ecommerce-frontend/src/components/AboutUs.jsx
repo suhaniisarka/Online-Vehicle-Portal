@@ -2,7 +2,7 @@ import React from "react";
 function AboutUs() {
   return (
     <>
-      <div
+      {/* <div
         className="container center"
         style={{
           display: "grid",
@@ -23,9 +23,9 @@ function AboutUs() {
             src={"assets/group.jpg"}
           />
         </div>
-        {/* <div className="container center" style={{width:"450px",paddingTop:"30px"}}><img src={'assets/header7.jpg'} style={{width:"450px",borderRadius:'25px'}} /></div> */}
+        <div className="container center" style={{width:"450px",paddingTop:"30px"}}><img src={'assets/header7.jpg'} style={{width:"450px",borderRadius:'25px'}} /></div>
       <br/>
-      </div>
+      </div> */}
       <div
         className="container center"
         style={{
@@ -113,6 +113,30 @@ function AboutUs() {
           secure system enabling structured user-experience.
         </p>
       </div> */}
+      <div
+        className="container center"
+        style={{
+          display: "grid",
+          //paddingLeft: 70,
+          //paddingTop: 70,
+          //paddingBottom: 70,
+          justifyContent: "center",
+          //border: "solid",
+          borderRadius: "15px",
+          //background: "#313131",
+        }}
+      >
+        <div className="wdt">
+          <img
+            className="img"
+            alt="pic1"
+            style={{ paddingLeft: "3px" }}
+            src={"assets/group.jpg"}
+          />
+        </div>
+        {/* <div className="container center" style={{width:"450px",paddingTop:"30px"}}><img src={'assets/header7.jpg'} style={{width:"450px",borderRadius:'25px'}} /></div> */}
+      <br/>
+      </div>
     </>
   );
 }
