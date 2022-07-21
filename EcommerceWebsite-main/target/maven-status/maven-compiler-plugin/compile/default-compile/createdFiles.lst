@@ -46,7 +46,6 @@ ecommerce\daos\CustomerDao.class
 ecommerce\services\PaymentServiceImpl.class
 ecommerce\daos\OrderDao.class
 ecommerce\daos\AdminDao.class
-ecommerce\models\ProductPagedResponseDTO.class
 ecommerce\models\PlaceOrderDTO.class
 ecommerce\entities\Seller.class
 ecommerce\services\SellerService.class
