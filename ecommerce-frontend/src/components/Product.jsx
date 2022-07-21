@@ -13,7 +13,7 @@ function Product(props){
                 <h6 className="float-right">Price: &#8377; {x.price}</h6>                           
                 </div>
                 <div className="card-footer p-1">
-                    <button onClick={e=>showModal(x)} className="btn btn-primary btn-sm">Buy Now</button>
+                    <button className="btn btn-primary btn-sm">Buy Now</button>
                 </div>
             </div>
         </div>
@@ -21,3 +21,5 @@ function Product(props){
 }
 
 export default Product;
+
+//<button onClick={e=>showModal(x)} className="btn btn-primary btn-sm">Buy Now</button>
