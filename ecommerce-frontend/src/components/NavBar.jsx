@@ -46,7 +46,7 @@ function NavBar() {
             <li className="nav-item active">
               <Link
                 className="nav-link"
-                to="/cat"
+                to="/"
                 style={{ color: "white", fontSize: "22px" }}
               >
                 Buy Cars
