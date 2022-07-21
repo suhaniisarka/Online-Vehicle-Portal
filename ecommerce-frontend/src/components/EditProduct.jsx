@@ -63,12 +63,12 @@ function EditProduct(){
                             <img width="300" src={"http://127.0.0.1:8887/"+product.photo} />
                         </div>
                         <div className="col-sm-9">
-                            <h4 className="text-center p-2">
+                            <h4 className="text-center p-2" style={{color:'white'}}>
                                 Edit Product Form (Product ID : )
                             </h4>
                             <form onSubmit={handleSubmit}>
                             <div className="form-group form-row">
-                                <label className="col-sm-4 form-control-label">Product Name</label>
+                                <label className="col-sm-4 form-control-label"  style={{color:'white'}}>Product Name</label>
                                 <div className="col-sm-8">
                                     <input type="text" name="pname" value={product.pname} onChange={handleInput} className="form-control" />
                                     {errors.pname && <small className="text-danger float-right">{errors.pname}</small>}
@@ -76,7 +76,7 @@ function EditProduct(){
                                 
                             </div>                            
                             <div className="form-group form-row">
-                                <label className="col-sm-4 form-control-label">Brands</label>
+                                <label className="col-sm-4 form-control-label" style={{color:'white'}}>Brands</label>
                                 <div className="col-sm-8">
                                     <select name="pcat" value={product.pcat} onChange={handleInput} className="form-control">
                                         <option value="">Select Brands</option>
@@ -91,14 +91,14 @@ function EditProduct(){
                                 </div>                        
                             </div>                            
                             <div className="form-group form-row">
-                                <label className="col-sm-4 form-control-label">Price</label>
+                                <label className="col-sm-4 form-control-label" style={{color:'white'}} >Price</label>
                                 <div className="col-sm-8">
                                     <input type="number" name="price" value={product.price} onChange={handleInput} className="form-control" />
                                     {errors.price && <small className="text-danger float-right">{errors.price}</small>}
                                 </div>                                
                             </div>
                             <div className="form-group form-row">
-                                <label className="col-sm-4 form-control-label">Brand</label>
+                                <label className="col-sm-4 form-control-label"  style={{color:'white'}}>Category</label>
                                 <div className="col-sm-8">
                                     <input type="text" name="brand" value={product.brand} onChange={handleInput} className="form-control" />
                                     {errors.brand && <small className="text-danger float-right">{errors.brand}</small>}

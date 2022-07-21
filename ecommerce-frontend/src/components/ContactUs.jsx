@@ -2,8 +2,9 @@ import React from "react";
 function ContactUs() {
   return (
     <>
-      <div style={{alignSelf:'center',margin:'auto'}}><img src={'address.png'} style={{}} /></div>
-      <div style={{marginBottom:0,marginTop:15,marginLeft:200,marginRight:900, color: "white",fontSize:"45px",textShadow:'2px 1px #000000',paddingLeft:"80px",border: 'solid',borderRadius:"15px",borderColor:"black"}}>Contact Us</div>
+      {/* <div ><a style={{paddingTop:"300px"}}>Our Executives are available 24*7 !</a></div> */}
+      <div className="container center" style={{width:"450px",paddingTop:"30px"}}><img src={'assets/contact.jpg'} style={{width:"450px",borderRadius:'25px'}} /></div>
+      {/* <div style={{marginBottom:0,marginTop:15,marginLeft:200,marginRight:900, color: "white",fontSize:"45px",textShadow:'2px 1px #000000',paddingLeft:"80px",border: 'solid',borderRadius:"15px",borderColor:"black"}}>Contact Us</div> */}
       <br/>
       <div
         className="container center"
@@ -49,6 +50,7 @@ function ContactUs() {
         </p></div>
         
       </div>
+      <br/>
     </>
   );
 }

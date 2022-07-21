@@ -21,17 +21,17 @@ const RoleNavbar=({isLoggedIn})=>{
     return (
         <ul className="navbar-nav ml-auto">
         <li className="nav-item active">
-            <Link className="nav-link" to="/cart" style={{color:"white"}}>View Cart {state.cart.length===0 ? '' : 
+            <Link className="nav-link" to="/cart" style={{ color: "white", fontSize: "22px" }}>View Cart {state.cart.length===0 ? '' : 
             <span className="badge badge-primary p-2">{state.cart.map(x=>x.qty).reduce((a,b)=>parseInt(a)+parseInt(b))}</span>}</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" to="/cprofile " style={{color:"white"}}>Profile</Link>
+            <Link className="nav-link" to="/cprofile " style={{ color: "white", fontSize: "22px" }}>Profile</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" to="/myorders" style={{color:"white"}}>My Orders</Link>
+            <Link className="nav-link" to="/myorders" style={{ color: "white", fontSize: "22px" }}>My Orders</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" onClick={logout} to="#"style={{color:"white"}}>Logout</Link>
+            <Link className="nav-link" onClick={logout} to="#" style={{ color: "white", fontSize: "22px" }}>Logout</Link>
         </li>        
         </ul>
     )
@@ -41,16 +41,16 @@ const RoleNavbar=({isLoggedIn})=>{
             <ul className="navbar-nav ml-auto"> 
             <li className="nav-item active">
                 
-                <Link className="nav-link" to="/sprofile" style={{color:"white"}}>Profile</Link>
+                <Link className="nav-link" to="/sprofile" style={{ color: "white", fontSize: "22px" }}>Profile</Link>
             </li>
             <li className="nav-item active">
-                <Link className="nav-link" to="/add-product" style={{color:"white"}}>Add Vehicle</Link>
+                <Link className="nav-link" to="/add-product" style={{ color: "white", fontSize: "22px" }}>Add Vehicle</Link>
             </li>
             <li className="nav-item active">
-                <Link className="nav-link" to="/myproducts" style={{color:"white"}}>Vehicle</Link>
+                <Link className="nav-link" to="/myproducts" style={{ color: "white", fontSize: "22px" }}>Vehicle</Link>
             </li>          
             <li className="nav-item active">
-                <Link className="nav-link" onClick={logout} to="#" style={{color:"white"}}>Logout</Link>
+                <Link className="nav-link" onClick={logout} to="#" style={{ color: "white", fontSize: "22px" }}>Logout</Link>
             </li>        
             </ul>
         )
@@ -58,19 +58,19 @@ const RoleNavbar=({isLoggedIn})=>{
     return (
         <ul className="navbar-nav ml-auto">             
         <li className="nav-item active">
-            <Link className="nav-link" to="/aprofile" style={{color:"white"}}>Profile</Link>
+            <Link className="nav-link" to="/aprofile" style={{ color: "white", fontSize: "22px" }}>Profile</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" to="/sellers" style={{color:"white"}}>Sellers</Link>
+            <Link className="nav-link" to="/sellers" style={{ color: "white", fontSize: "22px" }}>Sellers</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" to="/customers" style={{color:"white"}}>Customers</Link>
+            <Link className="nav-link" to="/customers" style={{ color: "white", fontSize: "22px" }}>Customers</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" to="/orders" style={{color:"white"}}>Orders</Link>
+            <Link className="nav-link" to="/orders" style={{ color: "white", fontSize: "22px" }}>Orders</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" onClick={logout} to="#" style={{color:"white"}}>Logout</Link>
+            <Link className="nav-link" onClick={logout} to="#" style={{ color: "white", fontSize: "22px" }}>Logout</Link>
         </li>        
         </ul>
     )
