@@ -21,6 +21,7 @@ import Orders from "./components/Orders";
 import ViewCart from "./components/ViewCart";
 import ContactUs from "./components/ContactUs";
 import AboutUs from "./components/AboutUs";
+import BuyCars from "./components/buyCar";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route component={ViewCart} path="/cart" />
           <Route component={ContactUs} path="/ContactUs" />
           <Route component={AboutUs} path="/AboutUs" />
+          <Route component={BuyCars} path="/buyCars" />
         </Switch>
       </BrowserRouter>
     </div>
