@@ -42,7 +42,7 @@ function MyProducts(){
                         <th style={{border:"2px solid black"}}><a style={{fontSize:'25px'}}>Brand Name</a></th>
                         <th style={{border:"2px solid black"}}><a style={{fontSize:'25px'}}>Category</a></th>
                         <th style={{border:"2px solid black"}}><a style={{fontSize:'25px'}}>Price</a></th>
-                        {/* <th style={{border:"2px solid black"}}><a style={{fontSize:'25px'}}>Action</a></th>*/}
+                        <th style={{border:"2px solid black"}}><a style={{fontSize:'25px'}}>Action</a></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,12 +52,12 @@ function MyProducts(){
                         <td style={{textAlign:'center',verticalAlign:'middle'}}><a style={{color:'white',fontSize:"20px"}}>{x.pcat}</a></td>
                         <td style={{textAlign:'center',verticalAlign:'middle'}}><a style={{color:'white',fontSize:"20px"}}>{x.brand}</a></td>
                         <td style={{textAlign:'center',verticalAlign:'middle'}}><a style={{color:'white',fontSize:"20px"}}>{x.price.toLocaleString(undefined, { maximumFractionDigits: 2 })}</a></td>
-                        {/* <td style={{verticalAlign:'middle'}}>
+                        <td style={{verticalAlign:'middle'}}>
                             <div className="container center" >
                             <Link to={"/edit/"+x.prodid} className="btn btn-primary btn-sm mr-2">Edit</Link>
                             <button onClick={()=>deleteProduct(x.prodid)} className="btn btn-danger btn-sm">Delete</button>
                             </div>
-                        </td>*/}
+                        </td>
                     </tr>
                 ))}
                 </tbody>
