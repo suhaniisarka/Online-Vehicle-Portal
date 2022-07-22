@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Box = styled.div`
 
 padding: 60px 70px;
-// background-image: url("assets/group.jpg");
+background-image: linear-gradient(180deg, black, grey);
 // background-repeat: no-repeat;
 // background-position: center;
 // background-size: cover;
