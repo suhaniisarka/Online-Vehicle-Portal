@@ -6,6 +6,7 @@ import { useHistory, useParams, useLocation } from "react-router-dom";
 import Product from "./Product";
 import queryString from "query-string";
 import TopSlider from "./TopSlider";
+import Footer from "./Footer";
 
 function Home() {
   const [products, setProducts] = useState([]);
@@ -115,8 +116,11 @@ function Home() {
                 <Product key={x.prodid} x={x} showModal={showModal} />
               ))}
             </div>
+          
           </div>
+          
         </div>
+        
         {display == "block" ? (
           <div
             className={showDialog}
@@ -164,7 +168,10 @@ function Home() {
         ) : (
           ""
         )}
+        
       </div>
+      
+      <Footer/>
     </>
   );
 }
