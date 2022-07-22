@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import ecommerce.entities.Product;
 import ecommerce.entities.Seller;
 import ecommerce.models.ProductDTO;
-//import ecommerce.models.ProductPagedResponseDTO;
+import ecommerce.models.ProductPagedResponseDTO;
 import ecommerce.models.ProductResponseDTO;
 import ecommerce.models.Response;
 import ecommerce.services.ProductService;
@@ -76,7 +76,7 @@ public class ProductController {
 		return Response.success(result);
 	}
 	
-/*	@GetMapping("/paginated")
+	@GetMapping("/paginated")
 	public ResponseEntity<?> paginatedProducts(int page,int pagesize) {
 		List<ProductResponseDTO> result = new ArrayList<ProductResponseDTO>();
 		Page<Product> data=productService.allProductsPaginated(page, pagesize);
@@ -90,7 +90,7 @@ public class ProductController {
 		resp.setPlist(result);
 		return Response.success(resp);
 	}
-	*/
+	
 	@GetMapping("cats")
 	public ResponseEntity<?> findCategoryProducts(String cat,String subcat) {
 		List<ProductResponseDTO> result = new ArrayList<ProductResponseDTO>();
