@@ -10,7 +10,7 @@ Heading,
 
 const Footer = () => {
 return (
-	<Box>
+	<Box style={{backgroundImage:'url("assets/group.jpg")',backgroundRepeat:'no-repeat',backgroundSize: 'cover',backgroundPosition: 'center'}}>
 	<h1 style={{ color: "green",
 				textAlign: "center",
 				marginTop: "-50px" }}>

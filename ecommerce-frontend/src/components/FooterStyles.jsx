@@ -3,11 +3,16 @@ import styled from 'styled-components';
 export const Box = styled.div`
 
 padding: 60px 70px;
-  background: black;
-  
+// background-image: url("assets/group.jpg");
+// background-repeat: no-repeat;
+// background-position: center;
+// background-size: cover;
+// background-opacity:0.5;
   bottom: 0;
   width: 100%;
-
+// Box.background{
+// 	opacity: 0.5;
+// }
 
 @media (max-width: 1000px) {
 	padding: 70px 30px;
@@ -20,6 +25,7 @@ flex-direction: column;
 justify-content: center;
 max-width: 1000px;
 margin: 0 auto;
+
 `
 
 export const Column = styled.div`
@@ -31,16 +37,10 @@ margin-left: 60px;
 
 export const Row = styled.div`
 display: grid;
-grid-template-columns: repeat(auto-fill,
-						minmax(185px, 1fr));
+grid-template-columns: repeat(auto-fill,minmax(185px, 1fr));
 grid-gap: 20px;
-
-@media (max-width: 1000px) {
-	grid-template-columns: repeat(auto-fill,
-						minmax(200px, 1fr));
-                        
-}
-margin-bottom: 10px;
+@media (max-width: 1000px) {grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));}
+margin-bottom: 20px;
 `;
 export const FooterLink = styled.a`
 color: #fff;
