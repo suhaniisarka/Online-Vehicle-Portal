@@ -97,12 +97,11 @@ function Home() {
       <div className="container-fluid p-2">
         <TopSlider />
       </div>
-      
+
       <div className="container-fluid" style={{ width: "92%" }}>
         <div className="card shadow bg-transparent">
-        
           <div className="card-body">
-          <h2 style={{color:"white"}}> Recently Added Vehicles</h2>
+            <h2 style={{ color: "white" }}> Recently Added Vehicles</h2>
             <ReactPaginate
               previousLabel={""}
               nextLabel={""}
@@ -119,11 +118,9 @@ function Home() {
                 <Product key={x.prodid} x={x} showModal={showModal} />
               ))}
             </div>
-          
           </div>
-          
         </div>
-        
+
         {display == "block" ? (
           <div
             className={showDialog}
@@ -145,8 +142,8 @@ function Home() {
                     />
                     <div className="ml-3">
                       <h4 className="p-2 text-warning">{item.pname}</h4>
-                      <h5 className="px-2">Brand: {item.brand}</h5>
-                      <h5 className="px-2">Category: {item.pcat}</h5>
+                      <h5 className="px-2">Brand: {item.pcat}</h5>
+                      <h5 className="px-2">Category: {item.brand}</h5>
                       <h5 className="px-2">Seller: {item.sellerName}</h5>
                       <h5 className="px-2">Price: &#8377; {item.price}</h5>
                       {/* <input
@@ -171,10 +168,9 @@ function Home() {
         ) : (
           ""
         )}
-        
       </div>
-      
-      <Footer/>
+
+      <Footer />
     </>
   );
 }
