@@ -117,7 +117,9 @@ function ViewCart() {
             </table>
           </div>
           <div className="col-sm-4">
-            <form onSubmit={handleSubmit}>
+            <form
+            //</div>  onSubmit={handleSubmit}
+            >
               <h5 className="p-2">Address Information</h5>
               <div className="form-group form-row">
                 <label className="col-sm-4 form-control-label">City</label>
