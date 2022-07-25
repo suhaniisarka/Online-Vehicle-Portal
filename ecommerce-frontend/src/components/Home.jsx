@@ -97,9 +97,12 @@ function Home() {
       <div className="container-fluid p-2">
         <TopSlider />
       </div>
+      
       <div className="container-fluid" style={{ width: "92%" }}>
         <div className="card shadow bg-transparent">
+        
           <div className="card-body">
+          <h2 style={{color:"white"}}> Recently Added Vehicles</h2>
             <ReactPaginate
               previousLabel={""}
               nextLabel={""}
@@ -146,11 +149,11 @@ function Home() {
                       <h5 className="px-2">Category: {item.pcat}</h5>
                       <h5 className="px-2">Seller: {item.sellerName}</h5>
                       <h5 className="px-2">Price: &#8377; {item.price}</h5>
-                      <input
+                      {/* <input
                         type="number"
                         value={qty}
                         onChange={(e) => setQty(e.target.value)}
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>

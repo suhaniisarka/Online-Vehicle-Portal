@@ -73,12 +73,13 @@ function ViewCart(){
             <table className="table table-bordered table-light table-striped">
                 <thead>
                     <tr>
-                        <th>Prodid</th>
-                        <th>Product Name</th>
+                        <th>Product id</th>
+                        <th>Brand Name</th>
+                        <th>Model Name</th>
                         <th>Price</th>
-                        <th>Qty</th>
+                        {/* <th>Qty</th> */}
                         <th>Amount</th>
-                        <th>Action</th>
+                        {/* <th>Action</th> */}
                     </tr>
                 </thead>
                 <tbody>
@@ -89,22 +90,23 @@ function ViewCart(){
                                 <img className="mr-2 float-left" src={"http://localhost:4000/"+item.photo} width="100" />
                                 {item.pname}
                             </td>
+                            <td>{item.brand}</td>
                             <td>&#8377; {item.price}</td>
-                            <td>{item.qty}</td>
-                            <td>&#8377; {item.qty * item.price}</td>
-                            <td><button onClick={e=>deleteItem(item)} className="btn btn-danger">Delete</button></td>
+                            {/* <td>{item.qty}</td> */}
+                            <td>&#8377; {item.price}</td>
+                            {/* <td><button onClick={e=>deleteItem(item)} className="btn btn-danger">Delete</button></td> */}
                         </tr>
                     ))}
                 </tbody>
                 <tfoot>
                     <tr>
-                        <th colSpan="4">Total Amount</th>
+                        <th colSpan="3">Total Amount</th>
                         <th>&#8377; {state.cart.reduce((a,b)=> (a+b.price),0)}</th>
                     </tr>
                 </tfoot>
             </table>
             </div>
-            <div className="col-sm-4">     
+            {/* <div className="col-sm-4">     
             <form onSubmit={handleSubmit} >           
                 <h5 className="p-2">Address Information</h5>
                 <div className="form-group form-row">
@@ -165,7 +167,7 @@ function ViewCart(){
                 </div>                
                 <button className="btn btn-success float-right">Place Order</button>
                 </form>
-            </div>
+            </div> */}
             </div> : <h4>Cart is Empty</h4>}
         </div>
     )

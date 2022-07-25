@@ -21,14 +21,16 @@ const RoleNavbar=({isLoggedIn})=>{
     return (
         <ul className="navbar-nav ml-auto">
         <li className="nav-item active">
-            <Link className="nav-link" to="/cart" style={{ color: "white", fontSize: "22px" }}>View Cart {state.cart.length===0 ? '' : 
-            <span className="badge badge-primary p-2">{state.cart.map(x=>x.qty).reduce((a,b)=>parseInt(a)+parseInt(b))}</span>}</Link>
+            <Link className="nav-link" to="/cart" style={{ color: "white", fontSize: "22px" }}>View Cart 
+            {/* {state.cart.length===0 ? '' :  */}
+            {/* <span className="badge badge-primary p-2">{state.cart.map(x=>x.qty).reduce((a,b)=>parseInt(a)+parseInt(b))}</span>} */}
+            </Link>
         </li>
         <li className="nav-item active">
             <Link className="nav-link" to="/cprofile " style={{ color: "white", fontSize: "22px" }}>Profile</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" to="/myorders" style={{ color: "white", fontSize: "22px" }}>My Orders</Link>
+            <Link className="nav-link" to="/myorder" style={{ color: "white", fontSize: "22px" }}>My Orders</Link>
         </li>
         <li className="nav-item active">
             <Link className="nav-link" onClick={logout} to="#" style={{ color: "white", fontSize: "22px" }}>Logout</Link>

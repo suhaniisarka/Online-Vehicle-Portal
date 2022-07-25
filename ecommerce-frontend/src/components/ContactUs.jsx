@@ -29,23 +29,19 @@ function ContactUs() {
           <div>
           <div>
           <img src={'email2.png'} style={{width:'33px', paddingRight:'2px',paddingTop:"0px"}} />
-          <a style={{fontSize:"22px",paddingTop:"2px"}}>Email-Id: abcd@dummy.com</a>
+          <a style={{fontSize:"22px",paddingTop:"2px"}}>Email-Id: suhani.isarka@gmail.com</a>
           </div>
           <br />
           <div>
           <img src={'address.png'} style={{width:'33px', paddingRight:'2px',paddingTop:"0px"}} />
-          <a style={{fontSize:"22px",paddingTop:"2px"}}>Address: Building alpha, 3rd Floor, X street, ABC</a>
+          <a style={{fontSize:"22px",paddingTop:"2px"}}>Address: Building alpha, 3rd Floor, colorado street, Pune</a>
           </div>
           <br />
           <div>
           <img src={'landline2.png'} style={{width:'33px', paddingRight:'2px',paddingTop:"0px"}} />
-          <a style={{fontSize:"22px",paddingTop:"2px"}}>Contact No: 123345678</a>
+          <a style={{fontSize:"22px",paddingTop:"2px"}}>Contact No: 7972728705</a>
           </div>
           <br />
-          <div>
-          <img src={'cellphone1.png'} style={{width:'33px', paddingRight:'2px',paddingTop:"0px"}} />
-          <a style={{fontSize:"22px",paddingTop:"2px"}}>Contact No(Mobile): 11111111</a>
-          </div>
           </div>
         </p></div>
         
