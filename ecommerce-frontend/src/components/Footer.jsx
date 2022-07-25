@@ -12,7 +12,7 @@ Heading,
 const Footer = () => {
 return (
 	<Box >
-	<div style={{border:"solid",textAlign:'center',color:"white",fontSize:"30px"}}>Online Vehicle Portal - CarEazy
+	<div style={{border:"solid",textAlign:'center',color:"white",fontSize:"30px",borderRadius:'20px'}}>Online Vehicle Portal - CarEazy
 	
 	</div>
 	<br/><br/>
