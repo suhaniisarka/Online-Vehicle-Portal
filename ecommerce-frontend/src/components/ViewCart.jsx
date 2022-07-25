@@ -205,9 +205,9 @@ function ViewCart() {
                         <input type="text" maxLength="3" readOnly value={payment.amount} onChange={handlePaymentInput} className="form-control" />                        
                     </div>                        
                 </div>   */}
-              <button className="btn btn-success float-right">
+              {/* <button className="btn btn-success float-right">
                 Place Order
-              </button>
+              </button> */}
             </form>
           </div>
         </div>
