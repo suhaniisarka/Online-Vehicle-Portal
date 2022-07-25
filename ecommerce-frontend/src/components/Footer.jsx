@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
 Box,
 Container,
@@ -11,15 +12,14 @@ Heading,
 const Footer = () => {
 return (
 	<Box >
-	<h1 style={{ color: "green",
-				textAlign: "center",
-				marginTop: "-50px" }}>
-		Online Vehicle Portal - CarEazy
-	</h1>
+	<div style={{border:"solid",textAlign:'center',color:"white",fontSize:"30px"}}>Online Vehicle Portal - CarEazy
+	
+	</div>
+	<br/><br/>
 	<Container>
 		<Row>
 		<Column>
-			<Heading>About Us</Heading>
+		<Heading><Link to="/AboutUs" style={{ color: "white"}}>About Us</Link></Heading>
 			<FooterLink href="#">Aim</FooterLink>
 			<FooterLink href="#">About Team</FooterLink>
 			<FooterLink href="#">Testimonials</FooterLink>
@@ -32,7 +32,8 @@ return (
 			
 		</Column>
 		<Column>
-			<Heading>Contact Us</Heading>
+		
+			<Heading><Link to="/ContactUs" style={{ color: "white"}}>Contact Us</Link></Heading>
 			<FooterLink href="#">Nagpur</FooterLink>
 			<FooterLink href="#">Gujrat</FooterLink>
 			<FooterLink href="#">Pune</FooterLink>
