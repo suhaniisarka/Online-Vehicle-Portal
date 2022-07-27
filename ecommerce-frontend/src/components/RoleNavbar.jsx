@@ -122,7 +122,7 @@ const RoleNavbar = ({ isLoggedIn }) => {
       <li className="nav-item active">
         <Link
           className="nav-link"
-          to="/seller"
+          to="/sellers"
           style={{ color: "white", fontSize: "22px" }}
         >
           Sellers
@@ -131,7 +131,7 @@ const RoleNavbar = ({ isLoggedIn }) => {
       <li className="nav-item active">
         <Link
           className="nav-link"
-          to="/customer"
+          to="/customers"
           style={{ color: "white", fontSize: "22px" }}
         >
           Customers
@@ -140,7 +140,7 @@ const RoleNavbar = ({ isLoggedIn }) => {
       <li className="nav-item active">
         <Link
           className="nav-link"
-          to="/order"
+          to="/orders"
           style={{ color: "white", fontSize: "22px" }}
         >
           Orders
