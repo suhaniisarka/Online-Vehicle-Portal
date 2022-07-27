@@ -10,7 +10,21 @@ function AllCustomers(){
             console.log(customers)
         })
     },[])
-    
+    const deleteCustomer=(id)=>{
+        let response=window.confirm('Are you sure to delete this Customer ?');
+        if(response){
+           console.log(id);
+           axios.delete("http://localhost:4000/api/customers/"+id)
+           .then(resp=>{
+                axios.get("http://localhost:4000/api/customers")
+                .then(resp=>{
+                    //console.log(resp.data.data)
+                    setCustomers(resp.data.data)            
+                })
+           })
+        }
+    }
+
     return (
         <div className="container-fluid">
             <h4 className="text-white p-2 text-center">All Customers</h4>
@@ -22,7 +36,8 @@ function AllCustomers(){
                         <th>Gender</th>
                         <th>Phone</th>
                         <th>User Id</th>
-                        <th>Password</th>
+                        {/* <th>Password</th> */}
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,7 +48,8 @@ function AllCustomers(){
                         <td>{x.gender}</td>
                         <td>{x.phone}</td>
                         <td>{x.userid}</td>
-                        <td>{x.pwd}</td>
+                        {/* <td>{x.pwd}</td> */}
+                        <td><button onClick={(e)=>deleteCustomer(x.id)} className="btn btn-danger btn-sm">Delete</button></td>
                     </tr>
                 ))}
                 </tbody>

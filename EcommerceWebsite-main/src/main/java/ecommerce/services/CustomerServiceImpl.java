@@ -53,5 +53,11 @@ public class CustomerServiceImpl implements CustomerService {
 		}
 		dao.save(cust);	
 	}
+	@Override
+	public void deleteCustomer(int id) {
+		// TODO Auto-generated method stub
+		Customer customer=dao.getById(id);
+		dao.delete(customer);
+	}
 	
 }
