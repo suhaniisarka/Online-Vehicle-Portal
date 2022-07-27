@@ -40,7 +40,7 @@ function AboutUs() {
         }}
       >
         <div style={{ display: "grid" }}>
-          <p style={{ color: "white", textShadow: "1px 1px #000000" }}>
+          <p style={{ color: "whitesmoke", textShadow: "1px 1px #000000" }}>
             <h2>About Us</h2>
             <br />
             The project CarEazy provides you the platform to buy and sell your
@@ -59,7 +59,7 @@ function AboutUs() {
             in obtaining their desired vehicle details online in a single place.
           </p>
           <br />
-          <p style={{ color: "white", textShadow: "1px 1px #000000" }}>
+          <p style={{ color: "whitesmoke", textShadow: "1px 1px #000000" }}>
             <h4>Our Team:</h4>
             <ul>
               <li>Suhani Isarka</li>
@@ -70,6 +70,7 @@ function AboutUs() {
           </p>
         </div>
       </div>
+      <br />
       {/* <div
         className="container center"
         style={{
@@ -113,6 +114,22 @@ function AboutUs() {
           secure system enabling structured user-experience.
         </p>
       </div> */}
+      <div
+        className="container center"
+        style={{
+          display: "grid",paddingLeft: 70,paddingTop: 70,paddingBottom: 70,border: "solid",borderRadius: "15px",background: "#313131",
+        }}>
+        <div style={{ display: "grid" }}>
+          <h2 style={{color:"whitesmoke"}}>FAQ's</h2>
+          <ul style={{color:"whitesmoke"}} >
+              <li>Suhani Isarka</li>
+              <li>Mrugank Thatte</li>
+              <li>Pratik Bhongade</li>
+              <li>Sumankumar Vadhel</li>
+          </ul>
+        </div>
+      </div>
+        
       <div
         className="container center"
         style={{
