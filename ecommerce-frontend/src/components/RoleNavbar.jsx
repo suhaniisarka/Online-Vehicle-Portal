@@ -113,7 +113,7 @@ const RoleNavbar = ({ isLoggedIn }) => {
       <li className="nav-item active">
         <Link
           className="nav-link"
-          to="/aprofil"
+          to="/aprofile"
           style={{ color: "white", fontSize: "22px" }}
         >
           Profile
