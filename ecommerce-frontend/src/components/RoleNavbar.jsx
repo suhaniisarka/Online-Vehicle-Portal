@@ -47,7 +47,7 @@ const RoleNavbar = ({ isLoggedIn }) => {
         <li className="nav-item active">
           <Link
             className="nav-link"
-            to="/myorder"
+            to="/myorders"
             style={{ color: "white", fontSize: "22px" }}
           >
             My Orders
