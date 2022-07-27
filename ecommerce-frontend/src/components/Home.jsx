@@ -169,9 +169,18 @@ function Home() {
           ""
         )}
       </div>
+      <div >
+      <p style={{border:"solid",textAlign:'center',fontSize:"30px",borderRadius:'20px',backgroundImage:'url("assets/group.jpg")'}}>
+        Todays deals!!
+      </p>
+      <a href="buyCars"><img src="assets/car1.jpg" alt="This is car 1" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}></img></a>
+      <a href="buyCars"><img src="assets/car2.jpg" alt="This is car 2" width="500" height="400" ></img></a>
+      <a href="buyCars"><img src="assets/car3.jpg" alt="This is car 3" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}></img></a>
 
+      </div>
       <Footer />
     </>
+    
   );
 }
 
