@@ -171,7 +171,27 @@ function Home() {
       </div>
         <div >
         <p style={{border:"solid",textAlign:'center',fontSize:"30px",borderRadius:'20px',backgroundImage:'url("assets/group.jpg")'}}>
-          Todays deals!!
+          Exclusive Discounts!!
+        </p>
+        <a href="buyCars">
+          <img src="assets/disc1.jpg" alt="This is car 1" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
+          </img>
+        </a>
+        <a href="buyCars">
+          <img src="assets/disc2.jpg" alt="This is car 2" width="500" height="400" >
+          </img>
+        </a>
+        <a href="buyCars">
+          <img src="assets/disc3.jpg" alt="This is car 3" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
+          </img>
+        </a>
+        <a style={{textAlign:"justify",marginLeft:"200px",fontSize:'28px'}}>Car 1</a>
+        <a style={{textAlign:"justify",marginLeft:"450px",fontSize:'28px'}}>Car 2</a>
+        <a style={{textAlign:"justify",marginLeft:"425px",fontSize:'28px'}}>Car 3</a>
+      </div>
+      <div >
+        <p style={{color:"white",border:"solid",textAlign:'center',fontSize:"30px",borderRadius:'20px',backgroundColor:'black'}}>
+        Todays deals!!
         </p>
         <a href="buyCars">
           <img src="assets/car1.jpg" alt="This is car 1" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
@@ -189,6 +209,7 @@ function Home() {
         <a style={{textAlign:"justify",marginLeft:"450px",fontSize:'28px'}}>Car 2</a>
         <a style={{textAlign:"justify",marginLeft:"425px",fontSize:'28px'}}>Car 3</a>
       </div>
+      
       <Footer />
     </>
     
