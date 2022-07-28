@@ -114,7 +114,7 @@ function AboutUs() {
           secure system enabling structured user-experience.
         </p>
       </div> */}
-      <div
+      {/* <div
         className="container center"
         style={{
           display: "grid",paddingLeft: 70,paddingTop: 70,paddingBottom: 70,border: "solid",borderRadius: "15px",background: "#313131",
@@ -128,7 +128,7 @@ function AboutUs() {
               <li>Sumankumar Vadhel</li>
           </ul>
         </div>
-      </div>
+      </div> */}
         
       <div
         className="container center"
