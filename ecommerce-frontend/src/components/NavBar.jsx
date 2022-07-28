@@ -16,11 +16,11 @@ function NavBar() {
         style={{ top: 0, zIndex: "1000" }}
       >
         {/* <Link className="navbar-brand" to="#">E-Shop</Link> */}
-        <img
+        <a href="/"><img
           src={"shop.jpg"}
           style={{ width: "175px" }}
           className="float-left"
-        />
+        /></a>
         <button
           className="navbar-toggler"
           type="button"
