@@ -114,21 +114,31 @@ function AboutUs() {
           secure system enabling structured user-experience.
         </p>
       </div> */}
-      {/* <div
+      <div
         className="container center"
         style={{
           display: "grid",paddingLeft: 70,paddingTop: 70,paddingBottom: 70,border: "solid",borderRadius: "15px",background: "#313131",
         }}>
-        <div style={{ display: "grid" }}>
+        <div className="container-fluid">
           <h2 style={{color:"whitesmoke"}}>FAQ's</h2>
-          <ul style={{color:"whitesmoke"}} >
-              <li>Suhani Isarka</li>
-              <li>Mrugank Thatte</li>
-              <li>Pratik Bhongade</li>
-              <li>Sumankumar Vadhel</li>
-          </ul>
+          <div style={{float:"left"}}>
+            <ul style={{color:"whitesmoke"}} >
+              <li><a href="myorders" style={{color:"whitesmoke"}}>What are the Shipping details?</a></li>
+              <li><a href="myorders" style={{color:"whitesmoke"}}>How do I track my order?</a></li>
+              <li><a href="myorders" style={{color:"whitesmoke"}}>How to contact the owner?</a></li>
+              <li><a href="register" style={{color:"whitesmoke"}}>How to register a user?</a></li>
+            </ul>
+          </div>
+          <div style={{float:"right",marginRight:"10vw"}}>
+            <ul style={{color:"whitesmoke"}} >
+              <li><a href="cprofile" style={{color:"whitesmoke"}}>How to reset the password?</a></li>
+              <li><a href="cprofile" style={{color:"whitesmoke"}}>How to change my address?</a></li>
+              <li><a href="cprofile" style={{color:"whitesmoke"}}>How to change billing info?</a></li>
+              <li><a href="/" style={{color:"whitesmoke"}}>Are there any discounts available?</a></li>
+            </ul>
+          </div>
         </div>
-      </div> */}
+      </div>
         
       <div
         className="container center"

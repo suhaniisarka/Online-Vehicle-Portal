@@ -97,8 +97,33 @@ function Home() {
       <div className="container-fluid p-2">
         <TopSlider />
       </div>
+      <div >
+        <p style={{color:"white",border:"solid",textAlign:'center',fontSize:"30px",borderRadius:'20px',backgroundColor:'black'}}>
+        Todays deals!!
+        </p>
 
-      <div className="container-fluid" style={{ width: "92%" }}>
+        <a href="buyCars">
+          <img src="assets/car1.jpg" alt="This is car 1" width="400" height="300" style={{border:"solid",borderColor:"black",borderRadius:"20px",marginLeft:"10vw"}}>
+          </img>
+        </a>
+
+
+        <a href="buyCars">
+          <img src="assets/car2.jpg" alt="This is car 2" width="400" height="300" >
+          </img>
+        </a>
+       
+        <a href="buyCars">
+          <img src="assets/car3.jpg" alt="This is car 3" width="400" height="300" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
+          </img>
+        </a>
+       
+        {/* <a style={{textAlign:"justify",marginLeft:"200px",fontSize:'28px'}}>Car 1</a>
+        <a style={{textAlign:"justify",marginLeft:"450px",fontSize:'28px'}}>Car 2</a>
+        <a style={{textAlign:"justify",marginLeft:"425px",fontSize:'28px'}}>Car 3</a> */}
+      </div>
+      <br></br>
+      <div className="container-fluid" style={{ width: "92%",marginLeft:"10vw" }}>
         <div className="card shadow bg-transparent">
           <div className="card-body">
             <h2 style={{ color: "white" }}> Recently Added Vehicles</h2>
@@ -174,41 +199,19 @@ function Home() {
           Exclusive Discounts!!
         </p>
         <a href="buyCars">
-          <img src="assets/disc1.jpg" alt="This is car 1" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
+          <img src="assets/disc1.jpg" alt="This is car 1" width="400" height="300" style={{border:"solid",borderColor:"black",borderRadius:"20px",marginLeft:"10vw"}}>
           </img>
         </a>
         <a href="buyCars">
-          <img src="assets/disc2.jpg" alt="This is car 2" width="500" height="400" >
+          <img src="assets/disc2.jpg" alt="This is car 2" width="400" height="300" >
           </img>
         </a>
         <a href="buyCars">
-          <img src="assets/disc3.jpg" alt="This is car 3" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
+          <img src="assets/disc3.jpg" alt="This is car 3" width="400" height="300" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
           </img>
         </a>
-        <a style={{textAlign:"justify",marginLeft:"200px",fontSize:'28px'}}>Car 1</a>
-        <a style={{textAlign:"justify",marginLeft:"450px",fontSize:'28px'}}>Car 2</a>
-        <a style={{textAlign:"justify",marginLeft:"425px",fontSize:'28px'}}>Car 3</a>
       </div>
-      <div >
-        <p style={{color:"white",border:"solid",textAlign:'center',fontSize:"30px",borderRadius:'20px',backgroundColor:'black'}}>
-        Todays deals!!
-        </p>
-        <a href="buyCars">
-          <img src="assets/car1.jpg" alt="This is car 1" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
-          </img>
-        </a>
-        <a href="buyCars">
-          <img src="assets/car2.jpg" alt="This is car 2" width="500" height="400" >
-          </img>
-        </a>
-        <a href="buyCars">
-          <img src="assets/car3.jpg" alt="This is car 3" width="500" height="400" style={{border:"solid",borderColor:"black",borderRadius:"20px"}}>
-          </img>
-        </a>
-        <a style={{textAlign:"justify",marginLeft:"200px",fontSize:'28px'}}>Car 1</a>
-        <a style={{textAlign:"justify",marginLeft:"450px",fontSize:'28px'}}>Car 2</a>
-        <a style={{textAlign:"justify",marginLeft:"425px",fontSize:'28px'}}>Car 3</a>
-      </div>
+      
       
       <Footer />
     </>
