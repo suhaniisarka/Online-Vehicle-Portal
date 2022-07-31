@@ -20,9 +20,13 @@ import io.swagger.annotations.ApiOperation;
 @RequestMapping("/api/admin")
 public class AdminController {
 	
+	//dependency injection
 	@Autowired AdminService adminService;
 	
+	//Describes an operation or typically a HTTP method against a specific path.
 	@PostMapping("/validate")
+	
+	
 	@ApiOperation(value = "Validate the admin user")
 	public ResponseEntity<?> validateUser(@RequestBody LoginDTO dto) {
 		System.out.println(dto);
